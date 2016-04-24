@@ -22,7 +22,7 @@ body {
 }
 
 header {
-  background-color: #666;
+  background-color: #999;
 	padding: 1em 0 60px;
 	position: relative;
 }
@@ -32,7 +32,7 @@ header {
 	padding: 0;
 	list-style-type: none;
 	text-align: center;
-	background-color: #666;
+	background-color: #999;
 	display: none;
 	position: absolute;
 	right: 0;
@@ -113,7 +113,8 @@ h1 {
 
 h2 {
 	font-family: "Roboto", serif;
-	font-size: 2rem;
+	font-size: 1.4rem;
+	line-height: 2rem;
 }
 
 .banner-content {
@@ -177,18 +178,18 @@ h2 {
 .cards{
 	display: block;
 	text-align: center;
-	margin-bottom: 1rem;
+	padding: 1rem 1.3rem;
 }
 
 .link-card{
 	text-align: center;
-	background-color: #666;
+	background-color: #999;
 	padding: 1.3em 1.3em 1.3em 1.3em;
 	border-radius: 30px;
 	width: 100%;
 	text-decoration: none;
 	color: #fff;
-	border: 3px solid #666;
+	border: 3px solid #999;
 	display: block;
 	padding: 1em;
 }
@@ -203,15 +204,15 @@ h2 {
 .card-3,
 .card-4 {
 	display: block;
-	margin:1.3rem;
 	text-align: center;
+	margin: 1rem;
 }
 
 
 .card-title {
 	text-align: left;
   color: #000;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-family: "Roboto", serif;
   margin: 0;
 }
@@ -234,9 +235,10 @@ p {
 	text-decoration: none;
 	border-radius: 8px;
 	font-size: 0.75rem;
+	font-family: "Lato", serif;
 	margin: 0;
-	background-color: #fff;
-	color: #000;
+	background-color: #666;
+	color: #fff;
 	padding: 0.75em 0.75em 0.75em;
 }
 
@@ -249,11 +251,14 @@ p {
 	width: 100%;
 	}
 
+.section-title {
+	margin: 0;
+	font-size: 1.3rem;
+}
+
 .our-mission-section {
 	background-color: #e2e2e2;
-	padding-top: 1em;
-	padding-left: 1.3rem;
-	padding-right: 1.3rem;
+	padding: 1em 1.3rem;
 	}
 
 .our-mission-section-img {
@@ -269,7 +274,7 @@ p {
 }
 
 .food-section {
-	margin: 2.6em 1.3em 2.6em 1.3em;
+	padding: 1rem 1.3rem;
 	}
 
 .flag {
@@ -286,8 +291,8 @@ p {
 }
 
 .news-section {
-	margin-left: 1.3rem;
-	margin-right: 1.3rem;
+	padding: 1rem 1.3rem;
+	background-color: #e2e2e2;
 }
 
 .news-section-img {
@@ -296,10 +301,7 @@ p {
 }
 
 .location-section {
-	margin-top: 2em;
-	margin-left: 1.3rem;
-	margin-right: 1.3rem;
-	margin-bottom: 2em;
+	padding: 1rem 1.3rem;
 }
 
 .location-map-img {
@@ -313,8 +315,8 @@ p {
 
 .footer {
 	overflow: hidden;
-	padding: 1rem 1.3rem 1rem 1.3rem;
-	background-color: #cccccc;
+	padding: 1rem 1.3rem;
+	background-color: #666;
 }
 
 .footer-content {
@@ -350,17 +352,18 @@ p {
 
 .footer-text {
 	text-align: center;
-	font-size: 0.5em;
+	font-size: 0.9em;
 }
 
 .copyrights {
 	text-align: center;
+	color: #fff;
 	margin: 0;
 }
 
 .contact-us {
 	text-decoration: none;
-	color: #000
+	color: #fff;
 }
 
 
@@ -380,6 +383,21 @@ p {
 		line-height: 1.4;
 	}
 
+	h2 {
+		font-size: 1.8rem;
+		line-height: 2.5rem;
+	}
+
+	.card-title {
+		font-size: 1.1rem;
+		line-height: 1.9rem;
+	}
+
+	.section-title {
+		font-size: 1.6rem;
+		line-height: 2.1rem;
+	}
+
 	.cards {
 		text-align: center;
 	}
@@ -394,10 +412,6 @@ p {
 
 	.food-section {
 		text-align: center;
-	}
-
-	.section-title {
-		text-align: left;
 	}
 
 	.food-1,
@@ -423,6 +437,21 @@ p {
 	html {
 		font-size: 120%;
 		line-height: 1.5;
+	}
+
+	h2 {
+		font-size: 3.1rem;
+		line-height: 3.4rem;
+	}
+
+	.card-title {
+		font-size: 1.3rem;
+		line-height: 3.2rem;
+	}
+
+	.section-title {
+		font-size: 2.4rem;
+		line-height: 3.4rem;
 	}
 
 	.card-1,
