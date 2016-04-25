@@ -121,12 +121,12 @@ h2 {
 	text-align: center;
 	padding-left: 1.5em;
   padding-right: 1.5em;
-	bottom: 8%;
+	top: 50%;
   left: 50%;
   position: absolute;
-  transform: translateX(-50%);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
   width: 100%;
-  max-width: 45em;
 }
 
 .banner {
@@ -314,6 +314,7 @@ p {
 }
 
 .footer {
+	position: relative;
 	overflow: hidden;
 	padding: 1rem 1.3rem;
 	background-color: #666;
@@ -351,7 +352,12 @@ p {
 }
 
 .footer-text {
+	position: absolute;
 	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 	font-size: 0.9em;
 }
 
