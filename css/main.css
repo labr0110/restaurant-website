@@ -395,7 +395,7 @@ p {
 
   html {
     font-size: 100%;
-    line-height: 1.3;
+    line-height: 1.3rem;
 	}
 }
 
@@ -403,7 +403,7 @@ p {
 
 	html {
 		font-size: 110%;
-		line-height: 1.4;
+		line-height: 1.4rem;
 	}
 
 	h2 {
@@ -470,7 +470,7 @@ p {
 
 	html {
 		font-size: 120%;
-		line-height: 1.5;
+		line-height: 1.5rem;
 	}
 
 	h2 {
@@ -545,6 +545,6 @@ p {
 
 	html {
 		font-size: 130%;
-		line-height: 1.5;
+		line-height: 1.5rem;
 	}
 }
