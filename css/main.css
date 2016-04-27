@@ -223,6 +223,10 @@ h2 {
   margin: 0;
 }
 
+.link-card-p {
+  min-height: 150px;
+}
+
 p {
   text-align: left;
   color: #000;
@@ -448,6 +452,7 @@ p {
   .food-4 {
     display: inline-block;
     width: 42%;
+    vertical-align: top;
   }
 
   .nav {
@@ -508,6 +513,7 @@ p {
   .food-4 {
     display: inline-block;
     width: 23%;
+    vertical-align: top;
   }
 
   header {
@@ -545,6 +551,10 @@ p {
     color: #000;
   }
 
+  .link-card-p {
+    min-height: 230px;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -552,5 +562,9 @@ p {
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+
+  .link-card-p {
+    min-height: 250px;
   }
 }
